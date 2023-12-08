@@ -1,0 +1,120 @@
+nohup: ignoring input
+Loading data...
+Vocab size: 4762
+0it [00:00, ?it/s]2023it [00:00, 20224.81it/s]4046it [00:00, 17710.26it/s]6085it [00:00, 18840.24it/s]8177it [00:00, 19617.69it/s]9886it [00:00, 19446.05it/s]
+0it [00:00, ?it/s]1412it [00:00, 20803.78it/s]
+0it [00:00, ?it/s]2037it [00:00, 20353.04it/s]2826it [00:00, 20492.49it/s]
+/opt/conda/envs/rgt/lib/python3.8/site-packages/torch/nn/modules/rnn.py:62: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=1.0 and num_layers=1
+  warnings.warn("dropout option adds dropout after all but last "
+/opt/conda/envs/rgt/lib/python3.8/site-packages/sklearn/metrics/_classification.py:1344: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 due to no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+9886 1412 2826
+Time usage: 0:00:01
+<bound method Module.parameters of Model(
+  (embedding): Embedding(4762, 300)
+  (lstm): LSTM(300, 256, batch_first=True, dropout=1.0, bidirectional=True)
+  (maxpool): MaxPool1d(kernel_size=32, stride=32, padding=0, dilation=1, ceil_mode=False)
+  (fc): Linear(in_features=812, out_features=2, bias=True)
+)>
+Epoch [1/50]
+Iter:      0,  Train Loss:  0.69,  Train Acc: 53.12%,  Val Loss:  0.72,  Val Acc: 50.00%,  Time: 0:00:04 *
+Epoch [2/50]
+Iter:    100,  Train Loss:  0.49,  Train Acc: 77.34%,  Val Loss:  0.48,  Val Acc: 76.27%,  Time: 0:00:05 *
+Epoch [3/50]
+Iter:    200,  Train Loss:  0.48,  Train Acc: 72.66%,  Val Loss:  0.48,  Val Acc: 75.50%,  Time: 0:00:05 
+Epoch [4/50]
+Iter:    300,  Train Loss:  0.48,  Train Acc: 76.56%,  Val Loss:  0.46,  Val Acc: 77.27%,  Time: 0:00:06 *
+Epoch [5/50]
+Epoch [6/50]
+Iter:    400,  Train Loss:  0.44,  Train Acc: 76.56%,  Val Loss:  0.47,  Val Acc: 76.35%,  Time: 0:00:06 
+Epoch [7/50]
+Iter:    500,  Train Loss:  0.46,  Train Acc: 76.56%,  Val Loss:  0.46,  Val Acc: 77.41%,  Time: 0:00:06 *
+Epoch [8/50]
+Iter:    600,  Train Loss:  0.53,  Train Acc: 73.44%,  Val Loss:  0.46,  Val Acc: 77.12%,  Time: 0:00:07 
+Epoch [9/50]
+Iter:    700,  Train Loss:  0.47,  Train Acc: 75.78%,  Val Loss:  0.46,  Val Acc: 77.55%,  Time: 0:00:07 *
+Epoch [10/50]
+Epoch [11/50]
+Iter:    800,  Train Loss:  0.46,  Train Acc: 75.78%,  Val Loss:  0.47,  Val Acc: 75.64%,  Time: 0:00:08 
+Epoch [12/50]
+Iter:    900,  Train Loss:  0.51,  Train Acc: 70.31%,  Val Loss:  0.47,  Val Acc: 75.50%,  Time: 0:00:08 
+Epoch [13/50]
+Iter:   1000,  Train Loss:  0.35,  Train Acc: 86.72%,  Val Loss:  0.45,  Val Acc: 77.90%,  Time: 0:00:09 *
+Epoch [14/50]
+Epoch [15/50]
+Iter:   1100,  Train Loss:  0.54,  Train Acc: 73.44%,  Val Loss:  0.45,  Val Acc: 77.55%,  Time: 0:00:09 *
+Epoch [16/50]
+Iter:   1200,  Train Loss:  0.39,  Train Acc: 81.25%,  Val Loss:  0.45,  Val Acc: 77.76%,  Time: 0:00:10 
+Epoch [17/50]
+Iter:   1300,  Train Loss:  0.39,  Train Acc: 80.47%,  Val Loss:  0.45,  Val Acc: 77.55%,  Time: 0:00:10 
+Epoch [18/50]
+Iter:   1400,  Train Loss:  0.38,  Train Acc: 81.25%,  Val Loss:  0.45,  Val Acc: 77.69%,  Time: 0:00:10 
+Epoch [19/50]
+Epoch [20/50]
+Iter:   1500,  Train Loss:  0.44,  Train Acc: 77.34%,  Val Loss:  0.45,  Val Acc: 76.91%,  Time: 0:00:11 *
+Epoch [21/50]
+Iter:   1600,  Train Loss:  0.42,  Train Acc: 79.69%,  Val Loss:  0.47,  Val Acc: 76.20%,  Time: 0:00:11 
+Epoch [22/50]
+Iter:   1700,  Train Loss:  0.47,  Train Acc: 77.34%,  Val Loss:  0.45,  Val Acc: 76.91%,  Time: 0:00:12 
+Epoch [23/50]
+Epoch [24/50]
+Iter:   1800,  Train Loss:  0.45,  Train Acc: 79.69%,  Val Loss:  0.45,  Val Acc: 77.34%,  Time: 0:00:12 *
+Epoch [25/50]
+Iter:   1900,  Train Loss:  0.44,  Train Acc: 78.91%,  Val Loss:  0.45,  Val Acc: 77.27%,  Time: 0:00:13 *
+Epoch [26/50]
+Iter:   2000,  Train Loss:   0.4,  Train Acc: 77.34%,  Val Loss:  0.45,  Val Acc: 77.69%,  Time: 0:00:13 
+Epoch [27/50]
+Iter:   2100,  Train Loss:  0.43,  Train Acc: 79.69%,  Val Loss:  0.45,  Val Acc: 78.05%,  Time: 0:00:13 
+Epoch [28/50]
+Epoch [29/50]
+Iter:   2200,  Train Loss:  0.39,  Train Acc: 80.47%,  Val Loss:  0.45,  Val Acc: 77.27%,  Time: 0:00:14 
+Epoch [30/50]
+Iter:   2300,  Train Loss:  0.51,  Train Acc: 71.88%,  Val Loss:  0.44,  Val Acc: 77.48%,  Time: 0:00:14 *
+Epoch [31/50]
+Iter:   2400,  Train Loss:  0.49,  Train Acc: 75.00%,  Val Loss:  0.45,  Val Acc: 77.90%,  Time: 0:00:15 
+Epoch [32/50]
+Epoch [33/50]
+Iter:   2500,  Train Loss:  0.45,  Train Acc: 79.69%,  Val Loss:  0.45,  Val Acc: 77.20%,  Time: 0:00:15 
+Epoch [34/50]
+Iter:   2600,  Train Loss:   0.5,  Train Acc: 73.44%,  Val Loss:  0.45,  Val Acc: 77.20%,  Time: 0:00:15 
+Epoch [35/50]
+Iter:   2700,  Train Loss:  0.42,  Train Acc: 79.69%,  Val Loss:  0.45,  Val Acc: 77.83%,  Time: 0:00:16 
+Epoch [36/50]
+Iter:   2800,  Train Loss:  0.47,  Train Acc: 75.00%,  Val Loss:  0.45,  Val Acc: 77.34%,  Time: 0:00:16 
+Epoch [37/50]
+Epoch [38/50]
+Iter:   2900,  Train Loss:  0.36,  Train Acc: 82.81%,  Val Loss:  0.45,  Val Acc: 77.97%,  Time: 0:00:16 
+Epoch [39/50]
+Iter:   3000,  Train Loss:  0.39,  Train Acc: 83.59%,  Val Loss:  0.46,  Val Acc: 77.20%,  Time: 0:00:17 
+Epoch [40/50]
+Iter:   3100,  Train Loss:  0.45,  Train Acc: 78.91%,  Val Loss:  0.45,  Val Acc: 77.05%,  Time: 0:00:17 
+Epoch [41/50]
+Epoch [42/50]
+Iter:   3200,  Train Loss:  0.43,  Train Acc: 78.12%,  Val Loss:  0.45,  Val Acc: 77.20%,  Time: 0:00:17 
+Epoch [43/50]
+Iter:   3300,  Train Loss:  0.48,  Train Acc: 74.22%,  Val Loss:  0.45,  Val Acc: 77.34%,  Time: 0:00:18 
+No optimization for a long time, auto-stopping...
+auc: 0.8296617847918104
+acc: 0.7753007784854918
+precision: 0.8905622489959839
+recall: 0.6277423920736023
+f1: 0.7364051473640515
+              precision    recall  f1-score   support
+
+           1     0.7126    0.9229    0.8042      1413
+           0     0.8906    0.6277    0.7364      1413
+
+    accuracy                         0.7753      2826
+   macro avg     0.8016    0.7753    0.7703      2826
+weighted avg     0.8016    0.7753    0.7703      2826
+
+[[1304  109]
+ [ 526  887]]
+Traceback (most recent call last):
+  File "run.py", line 56, in <module>
+    train(config, model, train_iter, dev_iter, test_iter)
+  File "/data/gluo/Chinese-Text-Classification-Pytorch-master/train_eval.py", line 86, in train
+    test(config, model, test_iter)
+  File "/data/gluo/Chinese-Text-Classification-Pytorch-master/train_eval.py", line 94, in test
+    test_acc, test_loss, test_report, test_confusion = evaluate(config, model, test_iter, test=True)
+ValueError: not enough values to unpack (expected 4, got 2)

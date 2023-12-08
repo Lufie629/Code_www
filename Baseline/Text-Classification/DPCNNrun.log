@@ -1,0 +1,174 @@
+nohup: ignoring input
+Loading data...
+Vocab size: 4762
+0it [00:00, ?it/s]2039it [00:00, 20371.56it/s]4077it [00:00, 17905.68it/s]6072it [00:00, 18773.62it/s]8041it [00:00, 19117.45it/s]9886it [00:00, 19011.66it/s]
+0it [00:00, ?it/s]1412it [00:00, 19964.46it/s]
+0it [00:00, ?it/s]1935it [00:00, 19341.72it/s]2826it [00:00, 19540.26it/s]
+9886 1412 2826
+Time usage: 0:00:01
+<bound method Module.parameters of Model(
+  (embedding): Embedding(4762, 300)
+  (conv_region): Conv2d(1, 250, kernel_size=(3, 300), stride=(1, 1))
+  (conv): Conv2d(250, 250, kernel_size=(3, 1), stride=(1, 1))
+  (max_pool): MaxPool2d(kernel_size=(3, 1), stride=2, padding=0, dilation=1, ceil_mode=False)
+  (padding1): ZeroPad2d((0, 0, 1, 1))
+  (padding2): ZeroPad2d((0, 0, 0, 1))
+  (relu): ReLU()
+  (fc): Linear(in_features=250, out_features=2, bias=True)
+)>
+Epoch [1/20]
+auc: 0.6864371754849169
+acc: 0.5
+precision: 0.5
+recall: 1.0
+f1: 0.6666666666666666
+Iter:      0,  Train Loss:   0.7,  Train Acc: 50.00%,  Val Loss:   1.1,  Val Acc: 50.00%,  Time: 0:00:23 *
+Epoch [2/20]
+auc: 0.8150454622057798
+acc: 0.7606232294617564
+precision: 0.9220183486238532
+recall: 0.5694050991501416
+f1: 0.7040280210157618
+Iter:    100,  Train Loss:  0.48,  Train Acc: 78.12%,  Val Loss:  0.47,  Val Acc: 76.06%,  Time: 0:00:24 *
+Epoch [3/20]
+auc: 0.8183437793417812
+acc: 0.7669971671388102
+precision: 0.9198218262806236
+recall: 0.5849858356940509
+f1: 0.7151515151515151
+Iter:    200,  Train Loss:  0.46,  Train Acc: 75.78%,  Val Loss:  0.46,  Val Acc: 76.70%,  Time: 0:00:25 *
+Epoch [4/20]
+auc: 0.8099394907269941
+acc: 0.7705382436260623
+precision: 0.8866396761133604
+recall: 0.6203966005665722
+f1: 0.7300000000000001
+Iter:    300,  Train Loss:  0.48,  Train Acc: 75.00%,  Val Loss:  0.46,  Val Acc: 77.05%,  Time: 0:00:26 
+Epoch [5/20]
+Epoch [6/20]
+auc: 0.814088468730188
+acc: 0.7570821529745042
+precision: 0.8178633975481612
+recall: 0.6614730878186968
+f1: 0.7314017227877839
+Iter:    400,  Train Loss:  0.43,  Train Acc: 78.91%,  Val Loss:  0.46,  Val Acc: 75.71%,  Time: 0:00:26 
+Epoch [7/20]
+auc: 0.8125917871100804
+acc: 0.7740793201133145
+precision: 0.8877755511022044
+recall: 0.6274787535410765
+f1: 0.7352697095435685
+Iter:    500,  Train Loss:  0.46,  Train Acc: 75.78%,  Val Loss:  0.46,  Val Acc: 77.41%,  Time: 0:00:27 *
+Epoch [8/20]
+auc: 0.8215899333113982
+acc: 0.7726628895184136
+precision: 0.9018789144050104
+recall: 0.6118980169971672
+f1: 0.7291139240506329
+Iter:    600,  Train Loss:  0.53,  Train Acc: 71.88%,  Val Loss:  0.45,  Val Acc: 77.27%,  Time: 0:00:28 *
+Epoch [9/20]
+auc: 0.821331123755106
+acc: 0.7712464589235127
+precision: 0.8675623800383877
+recall: 0.6402266288951841
+f1: 0.7367563162184189
+Iter:    700,  Train Loss:  0.45,  Train Acc: 77.34%,  Val Loss:  0.45,  Val Acc: 77.12%,  Time: 0:00:29 *
+Epoch [10/20]
+Epoch [11/20]
+auc: 0.8224335722138851
+acc: 0.7641643059490085
+precision: 0.838475499092559
+recall: 0.6543909348441926
+f1: 0.7350835322195705
+Iter:    800,  Train Loss:  0.43,  Train Acc: 77.34%,  Val Loss:  0.45,  Val Acc: 76.42%,  Time: 0:00:30 *
+Epoch [12/20]
+auc: 0.8066552175204038
+acc: 0.7655807365439093
+precision: 0.8378378378378378
+recall: 0.6586402266288952
+f1: 0.7375099127676448
+Iter:    900,  Train Loss:   0.5,  Train Acc: 72.66%,  Val Loss:  0.47,  Val Acc: 76.56%,  Time: 0:00:31 
+Epoch [13/20]
+auc: 0.8181933086695183
+acc: 0.7797450424929179
+precision: 0.9072164948453608
+recall: 0.623229461756374
+f1: 0.7388748950461798
+Iter:   1000,  Train Loss:  0.36,  Train Acc: 84.38%,  Val Loss:  0.45,  Val Acc: 77.97%,  Time: 0:00:32 
+Epoch [14/20]
+Epoch [15/20]
+auc: 0.8157376272981887
+acc: 0.7592067988668555
+precision: 0.8210526315789474
+recall: 0.6628895184135978
+f1: 0.7335423197492164
+Iter:   1100,  Train Loss:  0.53,  Train Acc: 72.66%,  Val Loss:  0.46,  Val Acc: 75.92%,  Time: 0:00:33 
+Epoch [16/20]
+auc: 0.8213050421719138
+acc: 0.7719546742209632
+precision: 0.9247787610619469
+recall: 0.5920679886685553
+f1: 0.7219343696027634
+Iter:   1200,  Train Loss:  0.38,  Train Acc: 81.25%,  Val Loss:  0.45,  Val Acc: 77.20%,  Time: 0:00:34 
+Epoch [17/20]
+auc: 0.8272014862489867
+acc: 0.7577903682719547
+precision: 0.9504950495049505
+recall: 0.5439093484419264
+f1: 0.691891891891892
+Iter:   1300,  Train Loss:  0.41,  Train Acc: 80.47%,  Val Loss:  0.46,  Val Acc: 75.78%,  Time: 0:00:35 
+Epoch [18/20]
+auc: 0.8184300491938784
+acc: 0.7719546742209632
+precision: 0.8950617283950617
+recall: 0.6161473087818697
+f1: 0.7298657718120806
+Iter:   1400,  Train Loss:  0.39,  Train Acc: 80.47%,  Val Loss:  0.45,  Val Acc: 77.20%,  Time: 0:00:36 
+Epoch [19/20]
+Epoch [20/20]
+auc: 0.8226191527096759
+acc: 0.7698300283286119
+precision: 0.9205298013245033
+recall: 0.5906515580736544
+f1: 0.7195858498705782
+Iter:   1500,  Train Loss:  0.45,  Train Acc: 76.56%,  Val Loss:  0.45,  Val Acc: 76.98%,  Time: 0:00:36 *
+auc: 0.8289222661475761
+acc: 0.7661004953998585
+precision: 0.9008528784648188
+recall: 0.5980184005661713
+f1: 0.7188430455125479
+Test Loss:  0.46,  Test Acc: 76.61%
+Precision, Recall and F1-Score...
+              precision    recall  f1-score   support
+
+           1     0.6992    0.9342    0.7998      1413
+           0     0.9009    0.5980    0.7188      1413
+
+    accuracy                         0.7661      2826
+   macro avg     0.8000    0.7661    0.7593      2826
+weighted avg     0.8000    0.7661    0.7593      2826
+
+Confusion Matrix...
+[[1320   93]
+ [ 568  845]]
+Time usage: 0:00:00
+auc: 0.8289222661475761
+acc: 0.7661004953998585
+precision: 0.9008528784648188
+recall: 0.5980184005661713
+f1: 0.7188430455125479
+Test Loss:  0.46,  Test Acc: 76.61%
+Precision, Recall and F1-Score...
+              precision    recall  f1-score   support
+
+           1     0.6992    0.9342    0.7998      1413
+           0     0.9009    0.5980    0.7188      1413
+
+    accuracy                         0.7661      2826
+   macro avg     0.8000    0.7661    0.7593      2826
+weighted avg     0.8000    0.7661    0.7593      2826
+
+Confusion Matrix...
+[[1320   93]
+ [ 568  845]]
+Time usage: 0:00:00

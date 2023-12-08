@@ -1,0 +1,104 @@
+nohup: ignoring input
+Loading data...
+Vocab size: 4762
+0it [00:00, ?it/s]1999it [00:00, 19962.51it/s]3996it [00:00, 17581.49it/s]5947it [00:00, 18394.41it/s]7931it [00:00, 18937.62it/s]9855it [00:00, 19037.89it/s]9886it [00:00, 18822.25it/s]
+0it [00:00, ?it/s]1412it [00:00, 19978.74it/s]
+0it [00:00, ?it/s]1956it [00:00, 19558.06it/s]2826it [00:00, 19725.29it/s]
+9886 1412 2826
+Time usage: 0:00:01
+<bound method Module.parameters of Model(
+  (embedding): Embedding(4762, 300)
+  (lstm): LSTM(300, 128, num_layers=2, batch_first=True, dropout=0.5, bidirectional=True)
+  (tanh1): Tanh()
+  (tanh2): Tanh()
+  (fc1): Linear(in_features=256, out_features=64, bias=True)
+  (fc): Linear(in_features=64, out_features=2, bias=True)
+)>
+Epoch [1/10]
+auc: 0.6496521118057283
+acc: 0.5743626062322946
+recall: 0.18838526912181303
+f1: 0.30680507497116494
+Iter:      0,  Train Loss:  0.69,  Train Acc: 53.91%,  Val Loss:  0.69,  Val Acc: 57.44%,  Time: 0:00:00 *
+Epoch [2/10]
+auc: 0.7754014557535973
+acc: 0.7245042492917847
+recall: 0.4603399433427762
+f1: 0.6256015399422522
+Iter:    100,  Train Loss:  0.49,  Train Acc: 75.00%,  Val Loss:  0.51,  Val Acc: 72.45%,  Time: 0:00:01 *
+Epoch [3/10]
+auc: 0.8109947917084641
+acc: 0.7570821529745042
+recall: 0.5708215297450425
+f1: 0.7014795474325501
+Iter:    200,  Train Loss:  0.48,  Train Acc: 75.78%,  Val Loss:  0.47,  Val Acc: 75.71%,  Time: 0:00:02 *
+Epoch [4/10]
+auc: 0.8081318363842098
+acc: 0.7620396600566572
+recall: 0.5821529745042493
+f1: 0.7098445595854923
+Iter:    300,  Train Loss:  0.48,  Train Acc: 76.56%,  Val Loss:  0.47,  Val Acc: 76.20%,  Time: 0:00:02 
+Epoch [5/10]
+Epoch [6/10]
+auc: 0.8138868380293559
+acc: 0.759915014164306
+recall: 0.6558073654390935
+f1: 0.7320158102766798
+Iter:    400,  Train Loss:  0.43,  Train Acc: 76.56%,  Val Loss:  0.46,  Val Acc: 75.99%,  Time: 0:00:03 *
+Epoch [7/10]
+auc: 0.817101894726705
+acc: 0.7570821529745042
+recall: 0.5920679886685553
+f1: 0.7090754877014418
+Iter:    500,  Train Loss:  0.46,  Train Acc: 76.56%,  Val Loss:  0.47,  Val Acc: 75.71%,  Time: 0:00:03 
+Epoch [8/10]
+auc: 0.817322585046024
+acc: 0.7627478753541076
+recall: 0.5835694050991501
+f1: 0.7109577221742881
+Iter:    600,  Train Loss:  0.52,  Train Acc: 73.44%,  Val Loss:  0.46,  Val Acc: 76.27%,  Time: 0:00:04 
+Epoch [9/10]
+auc: 0.8164889775216879
+acc: 0.7769121813031161
+recall: 0.6345609065155807
+f1: 0.7398843930635839
+Iter:    700,  Train Loss:  0.47,  Train Acc: 76.56%,  Val Loss:  0.46,  Val Acc: 77.69%,  Time: 0:00:04 *
+Epoch [10/10]
+auc: 0.8272746897302322
+acc: 0.7650389242745931
+recall: 0.6291578202406228
+f1: 0.7280917280917281
+Test Loss:  0.45,  Test Acc: 76.50%
+Precision, Recall and F1-Score...
+              precision    recall  f1-score   support
+
+           1     0.7084    0.9009    0.7931      1413
+           0     0.8639    0.6292    0.7281      1413
+
+    accuracy                         0.7650      2826
+   macro avg     0.7862    0.7650    0.7606      2826
+weighted avg     0.7862    0.7650    0.7606      2826
+
+Confusion Matrix...
+[[1273  140]
+ [ 524  889]]
+Time usage: 0:00:00
+auc: 0.8272746897302322
+acc: 0.7650389242745931
+recall: 0.6291578202406228
+f1: 0.7280917280917281
+Test Loss:  0.45,  Test Acc: 76.50%
+Precision, Recall and F1-Score...
+              precision    recall  f1-score   support
+
+           1     0.7084    0.9009    0.7931      1413
+           0     0.8639    0.6292    0.7281      1413
+
+    accuracy                         0.7650      2826
+   macro avg     0.7862    0.7650    0.7606      2826
+weighted avg     0.7862    0.7650    0.7606      2826
+
+Confusion Matrix...
+[[1273  140]
+ [ 524  889]]
+Time usage: 0:00:00

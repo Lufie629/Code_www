@@ -1,0 +1,118 @@
+nohup: ignoring input
+Loading data...
+Vocab size: 4762
+0it [00:00, ?it/s]1514it [00:00, 15135.79it/s]3028it [00:00, 12991.34it/s]4525it [00:00, 13817.97it/s]5989it [00:00, 14124.10it/s]7511it [00:00, 14502.07it/s]8971it [00:00, 14505.15it/s]9886it [00:00, 14302.86it/s]
+0it [00:00, ?it/s]1412it [00:00, 14859.46it/s]
+0it [00:00, ?it/s]1462it [00:00, 14619.21it/s]2826it [00:00, 14827.44it/s]
+9886 1412 2826
+Time usage: 0:00:01
+<bound method Module.parameters of Model(
+  (embedding): Embedding(4762, 300, padding_idx=4761)
+  (embedding_ngram2): Embedding(250499, 300)
+  (embedding_ngram3): Embedding(250499, 300)
+  (dropout): Dropout(p=0.5, inplace=False)
+  (fc1): Linear(in_features=900, out_features=256, bias=True)
+  (fc2): Linear(in_features=256, out_features=2, bias=True)
+)>
+Epoch [1/50]
+Iter:      0,  Train Loss:   0.7,  Train Acc: 55.47%,  Val Loss:   0.9,  Val Acc: 54.67%,  Time: 0:00:10 *
+Epoch [2/50]
+Iter:    100,  Train Loss:  0.55,  Train Acc: 69.53%,  Val Loss:  0.55,  Val Acc: 71.74%,  Time: 0:00:20 *
+Epoch [3/50]
+Iter:    200,  Train Loss:   0.6,  Train Acc: 64.84%,  Val Loss:  0.53,  Val Acc: 72.45%,  Time: 0:00:31 *
+Epoch [4/50]
+Iter:    300,  Train Loss:  0.59,  Train Acc: 67.97%,  Val Loss:  0.54,  Val Acc: 72.38%,  Time: 0:00:33 
+Epoch [5/50]
+Epoch [6/50]
+Iter:    400,  Train Loss:  0.55,  Train Acc: 75.00%,  Val Loss:  0.52,  Val Acc: 71.67%,  Time: 0:00:46 *
+Epoch [7/50]
+Iter:    500,  Train Loss:  0.54,  Train Acc: 74.22%,  Val Loss:  0.53,  Val Acc: 71.67%,  Time: 0:00:48 
+Epoch [8/50]
+Iter:    600,  Train Loss:  0.58,  Train Acc: 71.88%,  Val Loss:  0.53,  Val Acc: 72.80%,  Time: 0:00:50 
+Epoch [9/50]
+Iter:    700,  Train Loss:  0.54,  Train Acc: 70.31%,  Val Loss:  0.52,  Val Acc: 73.09%,  Time: 0:00:52 
+Epoch [10/50]
+Epoch [11/50]
+Iter:    800,  Train Loss:   0.5,  Train Acc: 74.22%,  Val Loss:  0.52,  Val Acc: 72.31%,  Time: 0:01:02 *
+Epoch [12/50]
+Iter:    900,  Train Loss:  0.56,  Train Acc: 70.31%,  Val Loss:  0.52,  Val Acc: 71.74%,  Time: 0:01:04 
+Epoch [13/50]
+Iter:   1000,  Train Loss:  0.45,  Train Acc: 79.69%,  Val Loss:  0.51,  Val Acc: 73.16%,  Time: 0:01:14 *
+Epoch [14/50]
+Epoch [15/50]
+Iter:   1100,  Train Loss:  0.57,  Train Acc: 70.31%,  Val Loss:  0.51,  Val Acc: 72.03%,  Time: 0:01:16 
+Epoch [16/50]
+Iter:   1200,  Train Loss:  0.42,  Train Acc: 78.12%,  Val Loss:  0.51,  Val Acc: 73.16%,  Time: 0:01:27 *
+Epoch [17/50]
+Iter:   1300,  Train Loss:  0.44,  Train Acc: 80.47%,  Val Loss:  0.53,  Val Acc: 72.31%,  Time: 0:01:29 
+Epoch [18/50]
+Iter:   1400,  Train Loss:  0.46,  Train Acc: 78.91%,  Val Loss:  0.52,  Val Acc: 72.73%,  Time: 0:01:31 
+Epoch [19/50]
+Epoch [20/50]
+Iter:   1500,  Train Loss:  0.62,  Train Acc: 65.62%,  Val Loss:  0.51,  Val Acc: 73.02%,  Time: 0:01:45 *
+Epoch [21/50]
+Iter:   1600,  Train Loss:  0.47,  Train Acc: 78.91%,  Val Loss:  0.51,  Val Acc: 72.73%,  Time: 0:01:55 *
+Epoch [22/50]
+Iter:   1700,  Train Loss:  0.49,  Train Acc: 74.22%,  Val Loss:  0.52,  Val Acc: 72.66%,  Time: 0:01:57 
+Epoch [23/50]
+Epoch [24/50]
+Iter:   1800,  Train Loss:  0.52,  Train Acc: 74.22%,  Val Loss:  0.51,  Val Acc: 73.09%,  Time: 0:01:59 
+Epoch [25/50]
+Iter:   1900,  Train Loss:  0.51,  Train Acc: 72.66%,  Val Loss:  0.51,  Val Acc: 72.66%,  Time: 0:02:01 
+Epoch [26/50]
+Iter:   2000,  Train Loss:  0.49,  Train Acc: 70.31%,  Val Loss:  0.51,  Val Acc: 73.09%,  Time: 0:02:03 
+Epoch [27/50]
+Iter:   2100,  Train Loss:  0.49,  Train Acc: 78.12%,  Val Loss:  0.51,  Val Acc: 72.59%,  Time: 0:02:05 
+Epoch [28/50]
+Epoch [29/50]
+Iter:   2200,  Train Loss:  0.47,  Train Acc: 77.34%,  Val Loss:  0.51,  Val Acc: 72.88%,  Time: 0:02:06 
+Epoch [30/50]
+Iter:   2300,  Train Loss:  0.53,  Train Acc: 73.44%,  Val Loss:  0.51,  Val Acc: 72.95%,  Time: 0:02:18 *
+Epoch [31/50]
+Iter:   2400,  Train Loss:  0.51,  Train Acc: 73.44%,  Val Loss:  0.52,  Val Acc: 72.38%,  Time: 0:02:20 
+Epoch [32/50]
+Epoch [33/50]
+Iter:   2500,  Train Loss:  0.52,  Train Acc: 71.88%,  Val Loss:  0.51,  Val Acc: 72.66%,  Time: 0:02:22 
+Epoch [34/50]
+Iter:   2600,  Train Loss:  0.54,  Train Acc: 72.66%,  Val Loss:  0.51,  Val Acc: 73.02%,  Time: 0:02:24 
+Epoch [35/50]
+Iter:   2700,  Train Loss:  0.49,  Train Acc: 71.09%,  Val Loss:  0.51,  Val Acc: 72.66%,  Time: 0:02:26 
+Epoch [36/50]
+Iter:   2800,  Train Loss:  0.56,  Train Acc: 68.75%,  Val Loss:  0.51,  Val Acc: 72.66%,  Time: 0:02:28 
+Epoch [37/50]
+Epoch [38/50]
+Iter:   2900,  Train Loss:  0.44,  Train Acc: 78.91%,  Val Loss:  0.51,  Val Acc: 72.24%,  Time: 0:02:30 
+Epoch [39/50]
+Iter:   3000,  Train Loss:  0.44,  Train Acc: 82.03%,  Val Loss:  0.51,  Val Acc: 72.95%,  Time: 0:02:31 
+Epoch [40/50]
+Iter:   3100,  Train Loss:   0.5,  Train Acc: 75.00%,  Val Loss:  0.52,  Val Acc: 72.59%,  Time: 0:02:33 
+Epoch [41/50]
+Epoch [42/50]
+Iter:   3200,  Train Loss:  0.47,  Train Acc: 78.12%,  Val Loss:  0.52,  Val Acc: 72.66%,  Time: 0:02:35 
+Epoch [43/50]
+Iter:   3300,  Train Loss:  0.48,  Train Acc: 76.56%,  Val Loss:  0.51,  Val Acc: 73.02%,  Time: 0:02:37 
+No optimization for a long time, auto-stopping...
+auc: 0.7954348184310184
+acc: 0.7342533616418967
+precision: 0.8207364341085271
+recall: 0.5994338287331918
+f1: 0.6928425357873211
+              precision    recall  f1-score   support
+
+           1     0.6845    0.8691    0.7658      1413
+           0     0.8207    0.5994    0.6928      1413
+
+    accuracy                         0.7343      2826
+   macro avg     0.7526    0.7343    0.7293      2826
+weighted avg     0.7526    0.7343    0.7293      2826
+
+[[1228  185]
+ [ 566  847]]
+Traceback (most recent call last):
+  File "run.py", line 56, in <module>
+    train(config, model, train_iter, dev_iter, test_iter)
+  File "/data/gluo/Chinese-Text-Classification-Pytorch-master/train_eval.py", line 86, in train
+    test(config, model, test_iter)
+  File "/data/gluo/Chinese-Text-Classification-Pytorch-master/train_eval.py", line 94, in test
+    test_acc, test_loss, test_report, test_confusion = evaluate(config, model, test_iter, test=True)
+ValueError: not enough values to unpack (expected 4, got 2)
