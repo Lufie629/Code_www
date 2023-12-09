@@ -40,6 +40,12 @@ gdown https://drive.google.com/uc?id=1T_WzrscrP1tzDVBDYFv6K7HAVT9FkJ7x
 # step3: The compressed file name is 'Datasets_process.tar.gz'. After decompression, you will obtain the 'Datasets_process' folder. The directory structure is as shown above.
 tar -xzvf Datasets_process.tar.gz
 ```
+## Datasets_process
+```
+Regarding the data processing part, we have placed all the data, process files, and data processing code used throughout the experimental process in the 'Datasets_process' folder. 
+This folder contains our approach and logic for data processing. 
+If you wish to gain a thorough understanding of these, please patiently review the files in the code section.
+```
 
 ## Baseline
 ```
@@ -48,13 +54,6 @@ If you wish to run them (for training or testing), you can execute the desired m
 
 please 'bash baseline.sh'
 or read baseline.sh
-```
-
-## Datasets_process
-```
-Regarding the data processing part, we have placed all the data, process files, and data processing code used throughout the experimental process in the 'Datasets_process' folder. 
-This folder contains our approach and logic for data processing. 
-If you wish to gain a thorough understanding of these, please patiently review the files in the code section.
 ```
 
 ## Proposed method
