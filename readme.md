@@ -11,7 +11,10 @@
         |--Text-Classification    
         |--Wei  
         |--baseline.sh
-    |--Datasets_process  
+    |--Datasets_process
+        |--Data
+        |--process_code
+        |--process_data
     |--Proposed_method  
         |--Proposed_method.log
         |--Proposed_method.py
@@ -21,7 +24,22 @@
     |--requirements.txt  
 
 ```
+## Init
+```
+Before testing the code, it's necessary to prepare the environment in which the code will run.
+Therefore, please first execute the 'Init.sh' shell file.
+```
+```
+# Init.sh
+# step1: prepare the enviroment
+pip install -r requriments.txt
 
+# step2: get the datasets, and you can alse download them from the url:https://drive.google.com/file/d/1T_WzrscrP1tzDVBDYFv6K7HAVT9FkJ7x/view?usp=drive_link
+gdown https://drive.google.com/uc?id=1T_WzrscrP1tzDVBDYFv6K7HAVT9FkJ7x
+
+# step3: The compressed file name is 'Datasets_process.tar.gz'. After decompression, you will obtain the 'Datasets_process' folder. The directory structure is as shown above.
+tar -xzvf Datasets_process.tar.gz
+```
 
 ## Baseline
 ```
