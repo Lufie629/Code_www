@@ -1,8 +1,7 @@
 # Dirs structure 
 ```
 |--Code  
-    |--Baseline  
-        |--datasets  
+    |--Baseline   
         |--Alhosseini  
         |--BotRGCN  
         |--Kudugunta  
