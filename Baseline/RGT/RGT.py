@@ -15,6 +15,7 @@ import os
 os.environ['CUDA_LAUNCH_BLOCKING'] = '1' # 下面老是报错 shape 不一致
 
 
+
 def load_data(args):
     cat_features = torch.load(args.path + "det_new_cat_properties_tensor.pt", map_location="cpu")
     prop_features = torch.load(args.path + "det_new_num_properties_tensor.pt", map_location="cpu")
