@@ -15,6 +15,7 @@ parser.add_argument('--word', default=False, type=bool, help='True for word, Fal
 args = parser.parse_args()
 
 
+
 if __name__ == '__main__':
     dataset = 'THUCNews' 
     embedding = 'embedding_SougouNews.npz'
