@@ -77,16 +77,7 @@ def load_data(args):
     
    
     x = torch.cat((cat_features, prop_features, des_features,dec_inputs,enc_inputs,tweets_tensor), dim=1)
-    
-    print(" CODE ==================================")
-    print("cat_features shape:   ", cat_features.shape)
-    print("prop_features shape:  ", prop_features.shape)
-    print("dec_inputs shape:     ", dec_inputs.shape)
-    print("enc_inputs shape:     ", enc_inputs.shape)
-    print("tweet_tensor shape: ", tweets_tensor.shape)
-    print("des_features shape:   ", des_features.shape)
-    print("x shape: ", x.shape)
-    print(" END load_data.py=======================================")
+
     print("loading edges & label...")
     edge_index = torch.load(args.path + "det_new_edge_index.pt", map_location="cpu")
     edge_type = torch.load(args.path + "det_new_edge_type.pt", map_location="cpu").unsqueeze(-1)
