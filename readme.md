@@ -68,5 +68,13 @@ please 'bash proposed_method.sh'
 or read proposed_method.sh
 ```
 
+## Result
+Ours
+<img width="1054" alt="image" src="https://github.com/Lufie629/Code_www/assets/153257488/7d5afa15-1cbb-4c85-bbf3-9d45af1bef33">
+RGT
+<img width="1030" alt="image" src="https://github.com/Lufie629/Code_www/assets/153257488/5f9d8c3c-5068-4648-9771-85553510884c">
+
+
+
 
 
